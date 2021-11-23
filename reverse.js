@@ -1,11 +1,11 @@
 const args = process.argv;
 let list = args.slice(2);
-let latin = "";
+let solution = "";
 
 for (let i = 0; i < list.length; i++) {
-  latin = "";
+  solution = "";
   for (let j = list[i].length - 1; j > -1; j--) {
-    latin += list[i][j];
+    solution += list[i][j];
   }
-  console.log(latin);
+  console.log(solution);
 }
