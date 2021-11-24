@@ -1,5 +1,4 @@
-const args = process.argv;
-let list = args.slice(2);
+let list = process.argv.slice(2);
 let solution = "";
 
 for (let i = 0; i < list.length; i++) {
@@ -9,3 +8,4 @@ for (let i = 0; i < list.length; i++) {
   }
   console.log(solution);
 }
+
